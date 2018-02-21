@@ -12,9 +12,15 @@ http://localhost:8161/
 
 https://github.com/fmtn/a/
 
+http://nordlander.co/activemq-command-line-utility-a/
+
+## Put a message onto a queue
+
+a -p "Hello, world" queue
+
 ## Read messages from a testqueue
 
-java -jar a-1.4.2-jar-with-dependencies.jar -c 10 testqueue
+a -c 10 testqueue
 
 
 
