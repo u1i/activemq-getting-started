@@ -16,11 +16,15 @@ http://nordlander.co/activemq-command-line-utility-a/
 
 ## Put a message onto a queue
 
-a -p "Hello, world" queue
+a -p "Hello, world" testqueue
 
-## Read messages from a testqueue
+## Read 10 messages from a testqueue
 
 a -c 10 testqueue
+
+## Listen to incoming messages in a queue
+
+a -g -c 1000 -w 0 testqueue
 
 
 
