@@ -30,5 +30,10 @@ a -c 10 testqueue
 
 a -g -c 1000 -w 0 testqueue
 
+# Publish to a topic
+
+a -p "hello" topic:gossip
+
+
 
 
