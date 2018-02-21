@@ -18,7 +18,7 @@ http://nordlander.co/activemq-command-line-utility-a/
 
 a -p "Hello, world" testqueue
 
-## List queues
+## List queues and topics
 
 a -l
 
