@@ -22,7 +22,7 @@ a -p "Hello, world" testqueue
 
 a -l
 
-## Read 10 messages from a testqueue
+## Read 10 messages from a queue
 
 a -c 10 testqueue
 
