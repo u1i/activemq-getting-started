@@ -18,6 +18,10 @@ http://nordlander.co/activemq-command-line-utility-a/
 
 a -p "Hello, world" testqueue
 
+## List queues
+
+a -l
+
 ## Read 10 messages from a testqueue
 
 a -c 10 testqueue
