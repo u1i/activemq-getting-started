@@ -18,6 +18,10 @@ http://nordlander.co/activemq-command-line-utility-a/
 
 a -p "Hello, world" testqueue
 
+## Put a message onto a queue with correlation ID
+
+a -E $RANDOM -p "Hello, world" testqueue
+
 ## List queues and topics
 
 a -l
